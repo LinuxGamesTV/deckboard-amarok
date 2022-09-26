@@ -1,0 +1,19 @@
+{
+  "name": "deckboard-amarok",
+  "version": "0.0.1",
+  "description": "Control Amarok on Linux through Deckboard",
+  "main": "index.js",
+  "scripts": {
+    "build": "deckboard-kit --build"
+  },
+  "author": {
+    "name": "Peter Stein aka LinuxGamesTV"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dbus-next": "^0.10.2",
+    "deckboard-kit": "^0.1.0",
+    "uuid": "^7.0.3",
+    "wintools": "^0.1.0"
+  }
+}
